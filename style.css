@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Dongle:wght@300&family=Neonderthaw&family=Open+Sans+Condensed:wght@300&family=Pacifico&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header-image{
+    height: 72px;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.nav-item{
+    font-family: "sarala", sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+}
+
+    /* MAIN RECEPÇÃO*/
+
+.content{
+    border-top: 0.4px solid #fff2e7;
+    margin-bottom: 48px;
+}
+
+.front-desk{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px
+}
+
+.front-desk-content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main-title{
+    font-family: "righteous", cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.main-description{
+    font-family: "sarala", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+
+.add-button{
+    background-color: #ecd6c4;
+    color: #2F2325;
+    width: 180px;
+    height: 67px;
+    font-weight: bold;
+    font-family: "sarala", sans-serif;
+    font-size: 16px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.4);
+}
+
+.add-button:hover{
+    background-color: rgba(236,214,196,0.6);
+}
+
+.bot-image{
+    height: 430px;
+}
+
+/* MAIN DESCRIÇÃO */
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.presentation-title{
+    border-top:0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: "righteous", cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff2ef;
+    margin-bottom: 16px;
+}
+
+.presentation-description{
+    font-weight: 400;
+    font-family: "sarala", sans-serif;
+    font-size: 18px;
+    color: #ecd6c4;
+    text-align:center
+}
+
+.footer{
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.footer-ballerini{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
